@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .ti{
+  width: 380px !important;
+} */
+
+
+
+
+#center{
+  background: rgb(245, 238, 245);
+  /* margin-left: 5rem; */
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.pb{
+  background: rgb(31, 173, 31);
   color: white;
+  border-radius: 15px;
+  font-size: 14px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+.main{
+  font-size: 0.7rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo {
+  height: 1.8rem;
+  border-radius: 50%;
+}
+ 
+.name{
+  font-weight: 700;
+  color: black !important;
+}
+
+select{
+  border: none !important ;
+}
+
+select:hover{
+  cursor: pointer;
+  color: white;
+  background: rgb(51, 51, 212) !important;
+
+} 
+.sec:hover{
+  cursor: pointer;
+  /* color: white; */
+  
+}
+.rci{
+  background: white;
+}
+
+
+
+.comp{
+  background: rgb(80, 170, 80);
+  color: white;
+  border-radius: 25px;
+}
+
+
+
+.bc{
+  background: white;
+}
+
+
+
+.sbd:hover{
+  cursor: pointer;
+  color: white;
+  background: blue;
+  border-radius: 20px;
+ 
+  /* background: blue; */
+}
+
+
+.if{
+  width: 156px !important;
+  border: none !important;
+
+}
+
+.type{
+  margin-left: 30px !important;
+}
+
+.bar:hover{
+  cursor: pointer;
+
+}
+
+.cn{
+  margin: 1.49rem !important;
+}
+
+.inin:hover{
+  cursor: pointer;
+  color: blueviolet;
+  text-decoration: underline;
+  
+}
+
+
+@media (min-width: 370px) and (max-width: 635px) {
+  .tbn{
+    width: 100wh !important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
